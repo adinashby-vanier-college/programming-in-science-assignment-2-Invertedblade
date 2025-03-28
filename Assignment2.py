@@ -1,12 +1,17 @@
 # Function 1: Lists - Finding the Maximum and Second Maximum in a List
 # This function takes a list of numbers as input and returns the maximum and second maximum values.
 def max_two_in_list(numbers):
-    return (0, 0)
-
+    if len.numbers == 1:
+        return numbers.max(), none
+    n1 = numbers.max()
+    numbers.remove(n1)
+    n2 = numbers.max()
+    return n1, n2
+    
 # Function 2: Lists - Removing Duplicates and Sorting
 # This function takes a list of numbers and returns a sorted list with duplicates removed.
 def remove_duplicates_and_sort(numbers):
-    return []
+    
 # Function 3: Single-Dimensional Arrays - Cumulative Sum
 # This function takes an array (list) of numbers and returns a new list where each element is the cumulative sum of the previous elements.
 def cumulative_sum(arr):
